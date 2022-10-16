@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+    <title>Mini Portifólio</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/images/foto-perfil.jpg" alt="foto de perfil">
+            <h1 class="nome">Igor Nogueira</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/images/sobre.gif" alt="icone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/images/redes.gif" alt="icone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Olá! Meu nome é Igor Nogueira, seja bem-vindo(a)!</p>
+
+                        <p>Comecei a estudar programação por incentivo de um amigo meu que é Dev Sênior, ele mostrou como a área de programação vem crescendo cada vez mais e mais. Me interessei bastante pela área e hoje vejo que a cada dia é sempre um novo desafio para aparender algo novo, me empenho cada vez mais para aprender coisas novas e muito em breve se tornar um Dev. Atualmente faço um curso com mentoria chamado <span>DevQuest</span> onde são abordados assuntos como: <span>HTML5, CSS3, JavaScript, React, TypeScript, Sass, Testes de Software(Jest e Testing Library), Git/GitHub e Terminal</span>.</p>
+                    </div>
+                    </div>
+                
+
+                    <div class="informacao" id="informacao-minhas-redes">
+                        <h3 class="sub-titulo">Minhas redes</h3> 
+
+                        <ul class="redes-sociais">
+                            <li>
+                                <a href="./src/docs/Profile.pdf" target="_blank" class="curriculo">Currículo</a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/igor-nogueira-a196931a1/" target="_blank" class="linkedin">Linkedin</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Igor-Nogueira" target="_blank" class="github">GitHub</a>
+                            </li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
